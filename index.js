@@ -32,11 +32,11 @@ function validateJWT(req) {
 }
 
 var connection = mysql.createConnection({
-    host: "127.0.0.1",
+    host: "sql7.freesqldatabase.com",
     port: 3306,
-    user: "root",
-    password: "123",
-    database: "datebase"
+    user: "sql7763842",
+    password: "tdDYscD1hv",
+    database: "sql7763842"
 });
 
 connection.connect((err) => {
